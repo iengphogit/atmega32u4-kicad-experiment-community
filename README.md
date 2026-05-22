@@ -439,3 +439,12 @@ You can also use KiCad MCP or `kicad-cli` for exports after the board is finaliz
 - Confirm Bluetooth module pin direction and voltage level requirements.
 - Route USB data lines carefully and keep them short.
 - Add or tune PCB design rules before ordering boards.
+
+## Credits And Contact
+
+Created by Ieng Pho.
+
+- GitHub: [iengphogit](https://github.com/iengphogit)
+- Facebook: [ieng.pho](https://www.facebook.com/ieng.pho/)
+- LinkedIn: [Ieng Pho](https://www.linkedin.com/in/ieng-pho-7a4328189/)
+- Email: [iengpho@gmail.com](mailto:iengpho@gmail.com)
