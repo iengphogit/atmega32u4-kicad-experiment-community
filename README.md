@@ -263,7 +263,7 @@ npm view kicad-mcp version description bin
 Run KiCad MCP directly with `npx`:
 
 ```sh
-npx -y kicad-mcp
+npx -y kicad-mcp@latest
 ```
 
 By default this runs MCP over stdio, which is the normal mode for MCP clients.
@@ -271,13 +271,13 @@ By default this runs MCP over stdio, which is the normal mode for MCP clients.
 Run setup explicitly:
 
 ```sh
-npx -y kicad-mcp --setup
+npx -y kicad-mcp@latest --setup
 ```
 
 Run local HTTP mode:
 
 ```sh
-npx -y kicad-mcp --http --host 127.0.0.1 --port 8765
+npx -y kicad-mcp@latest --http --host 127.0.0.1 --port 8765
 ```
 
 The HTTP MCP endpoint is:
@@ -306,7 +306,7 @@ Useful options:
 
 ```sh
 kicad-mcp --setup
-kicad-mcp --install-codex-skill
+kicad-mcp --install-codex-skill github
 kicad-mcp --python /path/to/python3
 kicad-mcp --venv /path/to/venv
 kicad-mcp --kicad-cli /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
@@ -321,7 +321,7 @@ Example MCP client configuration using `npx`:
   "mcpServers": {
     "kicad": {
       "command": "npx",
-      "args": ["-y", "kicad-mcp"]
+      "args": ["-y", "kicad-mcp@latest"]
     }
   }
 }
@@ -330,16 +330,16 @@ Example MCP client configuration using `npx`:
 Example HTTP startup command:
 
 ```sh
-npx -y kicad-mcp --http --host 127.0.0.1 --port 8765 \
+npx -y kicad-mcp@latest --http --host 127.0.0.1 --port 8765 \
   --kicad-cli /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
 ```
 
 ## Install The Codex Skill
 
-The npm package can install the bundled Codex skill:
+The npm package can install the Codex skill from GitHub:
 
 ```sh
-npx -y kicad-mcp --install-codex-skill
+npx -y kicad-mcp@latest --install-codex-skill github
 ```
 
 This installs the skill to:
