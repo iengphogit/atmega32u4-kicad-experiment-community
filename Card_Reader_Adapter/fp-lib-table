@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name "Card_Reader_Adapter")(type "KiCad")(uri "${KIPRJMOD}/Card_Reader_Adapter.pretty")(options "")(descr "Project footprints for Card_Reader_Adapter"))
+)

@@ -16,6 +16,13 @@ This KiCad project is a learning-focused starter design for an ATmega32U4-based 
 - Rectangular board outline on `Edge.Cuts`
 - Custom example footprint library in `TestDemo.pretty`
 
+## Included KiCad Projects
+
+This community repo now contains multiple KiCad learning projects:
+
+- `TestDemo.kicad_pro` - ATmega32U4 Arduino-compatible USB-C Bluetooth module
+- `Card_Reader_Adapter/Card_Reader_Adapter.kicad_pro` - smart-card reader adapter with ISO 7816 contacts and RJ45 connector
+
 ## Project Files
 
 ```text
