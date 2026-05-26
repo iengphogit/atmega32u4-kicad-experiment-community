@@ -306,7 +306,7 @@ Useful options:
 
 ```sh
 kicad-mcp --setup
-kicad-mcp --install-codex-skill github
+kicad-mcp --install-codex-skill
 kicad-mcp --python /path/to/python3
 kicad-mcp --venv /path/to/venv
 kicad-mcp --kicad-cli /Applications/KiCad/KiCad.app/Contents/MacOS/kicad-cli
@@ -336,10 +336,10 @@ npx -y kicad-mcp@latest --http --host 127.0.0.1 --port 8765 \
 
 ## Install The Codex Skill
 
-The npm package can install the Codex skill from GitHub:
+The npm package can install the bundled Codex skill:
 
 ```sh
-npx -y kicad-mcp@latest --install-codex-skill github
+npx -y kicad-mcp@latest --install-codex-skill
 ```
 
 This installs the skill to:
@@ -348,11 +348,21 @@ This installs the skill to:
 ~/.codex/skills/kicad-mcp
 ```
 
+If Codex uses a custom home directory, install to that directory instead:
+
+```sh
+CODEX_HOME="/path/to/codex-home" npx -y kicad-mcp@latest --install-codex-skill
+```
+
+Use the actual Codex home directory for your environment as `CODEX_HOME`.
+
 After restarting Codex, use:
 
 ```text
 $kicad-mcp
 ```
+
+Run Codex from this repository root so the skill can inspect `TestDemo.kicad_pro`, `TestDemo.kicad_sch`, and `TestDemo.kicad_pcb`.
 
 Example prompt:
 
