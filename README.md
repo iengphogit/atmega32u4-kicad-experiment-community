@@ -2,6 +2,19 @@
 
 This KiCad project is a learning-focused starter design for an ATmega32U4-based Arduino-compatible module. It includes a schematic-first design flow, a PCB layout with placed footprints, a custom module footprint example, and notes for using KiCad MCP automation.
 
+## Repository Scope
+
+This repository contains KiCad project files, learning notes, and usage examples
+for KiCad MCP. It does not vendor or mirror the full `kicad-mcp` npm package
+source code.
+
+For the KiCad MCP source code, package launcher, Codex skill, and KiCad action
+plugin implementation, use:
+
+```text
+https://github.com/iengphogit/kicad-mcp
+```
+
 ## What This Project Contains
 
 - ATmega32U4 microcontroller schematic connectivity
